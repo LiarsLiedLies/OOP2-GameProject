@@ -8,7 +8,7 @@ package com.mycompany.genericrpg;
  *
  * @author levi13570
  */
-public class ComMycompanyGenericrpg {
+public class Main {
 
     /**
      * @param args the command line arguments

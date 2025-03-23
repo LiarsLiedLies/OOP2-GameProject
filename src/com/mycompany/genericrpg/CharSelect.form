@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+              <Component id="lblClassName01" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+              <Component id="lblClassName02" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblClassName03" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblChooseClass" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnClassSelect01" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="lblClassStats01" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnClassSelect02" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="lblClassStats02" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblClassStats03" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnClassSelect03" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="lblChooseClass" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblClassName01" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblClassName02" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblClassName03" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnClassSelect01" alignment="3" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="btnClassSelect02" alignment="3" min="-2" pref="200" max="-2" attributes="0"/>
+                  <Component id="btnClassSelect03" alignment="3" min="-2" pref="200" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblClassStats01" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblClassStats02" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblClassStats03" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="134" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnClassSelect01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Char Picture 01"/>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClassSelect01ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnClassSelect03">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Char Picture 03"/>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClassSelect03ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnClassSelect02">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Char Picture 02"/>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClassSelect02ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassName01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ClassName01"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassName02">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ClassName02"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassName03">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ClassName03"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblChooseClass">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Choose a class:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassStats01">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STATS HERE 01"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassStats02">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STATS HERE 02"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblClassStats03">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="STATS HERE 03"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
