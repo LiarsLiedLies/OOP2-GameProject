@@ -10,8 +10,8 @@ class Enemy extends Entity {
         super(); // Call the Entity constructor
         this.enemyType = "Minion_Shinobi";
         setName(name);
-        setHp(100);
-        setHpMax(100);
+        setHp(250);
+        setHpMax(250);
         setAtk(30);
         setJutsu(1);
         setSkill(new int[]{1}); // Assuming skill index 1 corresponds to their skill
@@ -23,8 +23,8 @@ class Enemy extends Entity {
         super();
         this.enemyType = "Minion_Warrior";
         setName(name);
-        setHp(120);
-        setHpMax(120);
+        setHp(250);
+        setHpMax(250);
         setAtk(35);
         setJutsu(1);
         setSkill(new int[]{1});
@@ -36,8 +36,8 @@ class Enemy extends Entity {
         super();
         this.enemyType = "Minion_Wildcat";
         setName(name);
-        setHp(90);
-        setHpMax(90);
+        setHp(250);
+        setHpMax(250);
         setAtk(40);
         setJutsu(1);
         setSkill(new int[]{1});

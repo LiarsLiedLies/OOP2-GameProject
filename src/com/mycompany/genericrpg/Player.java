@@ -9,8 +9,8 @@ public class Player extends Entity {
         this("Shinobi"); // Default name
         this.setClas("Shinobi");
         this.setLvl(1);
-        this.setHp(100);
-        this.setHpMax(100);
+        this.setHp(250);
+        this.setHpMax(250);
         this.setAtk(30);
         this.setHpMod(20);
         this.setAtkMod(5);
@@ -26,8 +26,8 @@ public class Player extends Entity {
         this.setName(name);
         this.setClas("Shinobi");
         this.setLvl(1);
-        this.setHp(100);
-        this.setHpMax(100);
+        this.setHp(250);
+        this.setHpMax(250);
         this.setAtk(30);
         this.setHpMod(20);
         this.setAtkMod(5);

@@ -27,11 +27,11 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
               <Component id="lblClassName01" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
               <Component id="lblClassName02" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Component id="lblClassName03" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
@@ -66,7 +66,7 @@
               <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblClassName01" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblClassName02" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblClassName02" alignment="0" min="-2" pref="16" max="-2" attributes="0"/>
                   <Component id="lblClassName03" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -116,17 +116,17 @@
     </Component>
     <Component class="javax.swing.JLabel" name="lblClassName01">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ClassName01"/>
+        <Property name="text" type="java.lang.String" value="Warrior"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblClassName02">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ClassName02"/>
+        <Property name="text" type="java.lang.String" value="Mage"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblClassName03">
       <Properties>
-        <Property name="text" type="java.lang.String" value="ClassName03"/>
+        <Property name="text" type="java.lang.String" value="Rogue"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblChooseClass">

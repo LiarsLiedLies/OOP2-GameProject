@@ -64,11 +64,11 @@ public class CharSelect extends javax.swing.JFrame {
             }
         });
 
-        lblClassName01.setText("ClassName01");
+        lblClassName01.setText("Warrior");
 
-        lblClassName02.setText("ClassName02");
+        lblClassName02.setText("Mage");
 
-        lblClassName03.setText("ClassName03");
+        lblClassName03.setText("Rogue");
 
         lblChooseClass.setText("Choose a class:");
 
@@ -85,11 +85,11 @@ public class CharSelect extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(104, 104, 104)
                 .addComponent(lblClassName01)
-                .addGap(151, 151, 151)
+                .addGap(199, 199, 199)
                 .addComponent(lblClassName02)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(lblClassName03)
-                .addGap(101, 101, 101))
+                .addGap(128, 128, 128))
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -116,7 +116,7 @@ public class CharSelect extends javax.swing.JFrame {
                 .addGap(52, 52, 52)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblClassName01)
-                    .addComponent(lblClassName02)
+                    .addComponent(lblClassName02, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblClassName03))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -135,15 +135,21 @@ public class CharSelect extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnClassSelect01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClassSelect01ActionPerformed
-        // TODO add your handling code here:
+        STARTFIGHT obj = new STARTFIGHT();
+        obj.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnClassSelect01ActionPerformed
 
     private void btnClassSelect03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClassSelect03ActionPerformed
-        // TODO add your handling code here:
+        STARTFIGHT obj = new STARTFIGHT();
+        obj.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnClassSelect03ActionPerformed
 
     private void btnClassSelect02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClassSelect02ActionPerformed
-        // TODO add your handling code here:
+        STARTFIGHT obj = new STARTFIGHT();
+        obj.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnClassSelect02ActionPerformed
 
     /**

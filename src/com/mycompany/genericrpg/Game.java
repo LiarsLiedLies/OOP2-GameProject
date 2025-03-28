@@ -67,8 +67,8 @@ public class Game {
         playerLifeBar.setValue(player.getHealth());
         computerLifeBar.setValue(computer.getHealth());
 
-        lblPlayerChoice.setIcon(new ImageIcon(getClass().getResource("/Images/Mark.png")));
-        lblComputerChoice.setIcon(new ImageIcon(getClass().getResource("/Images/Mark.png")));
+        lblPlayerChoice.setIcon(new ImageIcon(getClass().getResource("/Images/PlayerPicture.jpg")));
+        lblComputerChoice.setIcon(new ImageIcon(getClass().getResource("/Images/EnemyPicture.jpg")));
 
         lblPlayerWins.setText("Win: " + player.getWins());
         lblComputerWins.setText("Win: " + computer.getWins());
